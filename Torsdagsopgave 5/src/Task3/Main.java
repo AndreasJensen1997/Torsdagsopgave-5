@@ -7,12 +7,7 @@ public class Main {
         Room room1 = new Room(20, 40);
         Room room2 = new Room(30, 50);
         Room room3 = new Room(40, 60);
-
-//        ArrayList<Room> rooms = new ArrayList<>();
-//        rooms.add(room1);
-//        rooms.add(room2);
-//        rooms.add(room3);
-
+        
         Building building1 = new Building( 4);
 
         building1.addRoom(room1);
