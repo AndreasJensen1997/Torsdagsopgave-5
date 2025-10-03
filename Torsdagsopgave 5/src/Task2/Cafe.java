@@ -14,7 +14,6 @@ public class Cafe {
             return coffeeMenu;
         }
 
-
     public void loadMenuData() {
         try {
             File file = new File("coffees.txt");

@@ -13,11 +13,9 @@ public class Main {
 
     }
 
-
     public static void printCustomers(ArrayList<Customer> customers) {
 
         for (Customer customer : customers) {
-
             System.out.println(customer);
         }
 

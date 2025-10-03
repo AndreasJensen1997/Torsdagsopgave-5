@@ -13,7 +13,6 @@ public class Building {
         this.numberOfFloors = numberOfFloors;
     }
 
-
     public ArrayList<Room> getRooms() {
         return rooms;
     }

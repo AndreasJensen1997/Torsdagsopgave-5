@@ -22,13 +22,9 @@ public class Main {
         int totalWindows = countWindowsInBuilding(building2);
         int totalRooms = countRoomsInBuilding(building2);
 
-
         System.out.println("The building has more floors than rooms: " + isNormal(building1));
-        System.out.println("The building has more floors than rooms: " + isNormal(building2));
 
     }
-
-
     public static int countLampsInBuilding(Building building) {
         int totalLamps = 0;
 
@@ -50,7 +46,6 @@ public class Main {
         return totalWindows;
 
     }
-
 
     public static int countRoomsInBuilding(Building building) {
         int totalRooms = 0;
